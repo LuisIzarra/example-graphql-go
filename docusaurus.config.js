@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/graphql-go.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'LuisIzarra', // Usually your GitHub org/user name.
+  projectName: 'example-graphql-go/graphql', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'graphql-go/graphql',
