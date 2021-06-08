@@ -8,7 +8,7 @@ To install the library, run:
 
 ```bash 
 go get github.com/graphql-go/graphql
-``` 
+```
 
 
 
