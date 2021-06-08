@@ -2,7 +2,7 @@
 module.exports = {
   title: 'graphql-go/graphql',
   tagline: 'Open source to enjoy',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/LuisIzarra/example-graphql-go',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
