@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/graphql-go.svg').default,
+    Svg: require('../../static/img/graphql1.svg').default,
     description: (
       <>
         graphql-go/graphql was designed from the ground up to be easily installed and
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('../../static/img/graphql-go5.svg').default,
+    Svg: require('../../static/img/graphql2.svg').default,
     description: (
       <>
         graphql-go/graphql lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    Svg: require('../../static/img/graphql-go6.svg').default,
+    Svg: require('../../static/img/graphql3.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. graphql-go/graphql can

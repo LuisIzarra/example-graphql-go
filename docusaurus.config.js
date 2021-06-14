@@ -3,10 +3,10 @@ module.exports = {
   title: 'graphql-go/graphql',
   tagline: 'Open source to enjoy',
   url: 'https://github.com/LuisIzarra/example-graphql-go',
-  baseUrl: '/',
+  baseUrl: '/example-graphql-go/graphql/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/graphql-go.ico',
+  favicon: 'img/GraphQL_Logo.ico',
   organizationName: 'LuisIzarra', // Usually your GitHub org/user name.
   projectName: 'example-graphql-go/graphql', // Usually your repo name.
   themeConfig: {
@@ -14,8 +14,8 @@ module.exports = {
       title: 'graphql-go/graphql',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/graphql-go.png',
-      },
+        src: 'img/GraphQL_Logo.png',
+      },      
       items: [
         {
           href: '/docs/tutorial-basics/overview',
@@ -28,8 +28,8 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
-      ],
-    },
+      ],                   
+    },    
     footer: {
       style: 'dark',
       links: [
@@ -37,9 +37,13 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Overview',
+              label: 'Getting Started',
               to: '/docs/tutorial-basics/overview',
             },
+            {
+              label: 'Runnning a GraphQL API',
+              to: '/docs/intro'
+            }
           ],
         },
         {
@@ -69,11 +73,18 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/graphql-go/graphql',
-            },
-          ],
+            },            
+          ],          
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GraphQL-Go Open Source.`,
+      logo: {
+        alt: 'Github stars',
+        src: 'https://img.shields.io/github/stars/graphql-go/graphql?style=social',
+        href: 'https://github.com/graphql-go/graphql/stargazers',
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} GraphQL-Go The Go gopher was designed by <a href="http://reneefrench.blogspot.com/">Renee French</a>.</br>
+      The design is licensed under the Creative Commons 3.0 Attributions license. Read this <a href="https://blog.golang.org/gopher">article</a> for more details.</br>
+      Design by Moriah Rich, illustration by Ariel Mashraki.`,
     },
   },
   presets: [
