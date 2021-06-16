@@ -9,10 +9,13 @@ import HomepageFeatures from '../components/HomepageFeatures';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>      
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h1 className="hero__title">{siteConfig.title}</h1>               
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <a href="https://github.com/graphql-go/graphql/stargazers" className="github" target="_blank">
+          <img src="https://img.shields.io/github/stars/graphql-go/graphql?style=social"></img>
+        </a> 
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -38,3 +41,4 @@ export default function Home() {
     </Layout>
   );
 }
+

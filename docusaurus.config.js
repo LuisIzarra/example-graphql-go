@@ -15,8 +15,15 @@ module.exports = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/GraphQL_Logo.png',
+      },
+      hideOnScroll: true,
+      title: 'graphql-go/graphql',
+      logo: {
+        alt: 'graphql-go/graphql Logo',
+        src: 'img/GraphQL_Logo.png',
+        srcDark: 'img/GraphQL_Logo.png',
       },      
-      items: [
+      items: [       
         {
           href: '/docs/tutorial-basics/overview',
           label: 'Docs',
@@ -24,12 +31,12 @@ module.exports = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/graphql-go/graphql',
+          href: 'https://github.com/graphql-go/graphql',          
           label: 'GitHub',
           position: 'right',
-        },
+        },        
       ],                   
-    },    
+    },        
     footer: {
       style: 'dark',
       links: [
@@ -76,12 +83,7 @@ module.exports = {
             },            
           ],          
         },
-      ],
-      logo: {
-        alt: 'Github stars',
-        src: 'https://img.shields.io/github/stars/graphql-go/graphql?style=social',
-        href: 'https://github.com/graphql-go/graphql/stargazers',
-      },
+      ],    
       copyright: `Copyright © ${new Date().getFullYear()} GraphQL-Go The Go gopher was designed by <a href="http://reneefrench.blogspot.com/">Renee French</a>.</br>
       The design is licensed under the Creative Commons 3.0 Attributions license. Read this <a href="https://blog.golang.org/gopher">article</a> for more details.</br>
       Design by Moriah Rich, illustration by Ariel Mashraki.`,
@@ -89,6 +91,7 @@ module.exports = {
   },
   presets: [
     [
+      '@docusaurus/preset-bootstrap',
       '@docusaurus/preset-classic',
       {
         docs: {
