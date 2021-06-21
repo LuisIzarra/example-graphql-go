@@ -2,13 +2,13 @@
 module.exports = {
   title: 'graphql-go/graphql',
   tagline: 'Open source to enjoy',
-  url: 'https://github.com/LuisIzarra/example-graphql-go',
-  baseUrl: '/example-graphql-go/graphql/',
+  url: 'https://LuisIzarra.github.io',
+  baseUrl: '/example-graphql-go/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/GraphQL_Logo.ico',
   organizationName: 'LuisIzarra', // Usually your GitHub org/user name.
-  projectName: 'example-graphql-go/graphql', // Usually your repo name.
+  projectName: 'example-graphql-go', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'graphql-go/graphql',
@@ -91,20 +91,19 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-bootstrap',
       '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/graphql-go/graphql',
+            'https://github.com/LuisIzarra/example-graphql-go/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/LuisIzarra/example-graphql-go/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
