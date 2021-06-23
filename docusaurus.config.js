@@ -34,7 +34,17 @@ module.exports = {
           href: 'https://github.com/graphql-go/graphql',          
           label: 'GitHub',
           position: 'right',
-        },        
+        }, 
+        {
+          href: "https://github.com/graphql-go/graphql/stargazers",
+          label: "GitHub Stargazers",
+          position: "right",
+          className: "github-stargazers",
+        }, 
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },      
       ],                   
     },        
     footer: {
@@ -111,4 +121,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
+  },
 };

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "graphql-go/graphql",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Documentos",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.GitHub Stargazers": {
+    "message": "Estrellas de GitHub",
+    "description": "Navbar item with label GitHub Stargazers"
+  }
+}
