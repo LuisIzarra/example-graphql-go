@@ -10,6 +10,13 @@ module.exports = {
   organizationName: 'LuisIzarra', // Usually your GitHub org/user name.
   projectName: 'example-graphql-go', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: process.env.API_KEY,
+      indexName: 'graphql-go',
+      contextualSearch: true,
+      appId: 'UGS24YL5EO',
+      searchParameters: {},
+    },
     navbar: {
       title: 'graphql-go/graphql',
       logo: {
