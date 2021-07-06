@@ -33,9 +33,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      #- uses: webfactory/ssh-agent@v0.5.3
-        #with:
-          #ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
+      - uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
@@ -50,4 +50,4 @@ jobs:
           else
           npm i
           fi
-          API_KEY=hello npm run deploy
+          API_KEY=${{ secrets.ALGOLIA_API_KEY }} npm run deploy
