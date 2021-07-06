@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'graphql-go/graphql',
-  tagline: 'Open source to enjoy',
+  tagline: 'An implementation of GraphQL for Go',
   url: 'https://LuisIzarra.github.io',
   baseUrl: '/example-graphql-go/',
   onBrokenLinks: 'throw',
@@ -40,11 +40,10 @@ module.exports = {
         {
           href: 'https://github.com/graphql-go/graphql',          
           label: 'GitHub',
-          position: 'right',
+          position: 'left',
         }, 
         {
           href: "https://github.com/graphql-go/graphql/stargazers",
-          label: "GitHub Stargazers",
           position: "right",
           className: "github-stargazers",
         }, 
@@ -106,7 +105,7 @@ module.exports = {
           ],          
         },
       ],    
-      copyright: `Copyright © ${new Date().getFullYear()} GraphQL-Go The Go gopher was designed by <a href="http://reneefrench.blogspot.com/">Renee French</a>.</br>
+      copyright: `The Go gopher was designed by <a href="http://reneefrench.blogspot.com/">Renee French</a>.</br>
       The design is licensed under the Creative Commons 3.0 Attributions license. Read this <a href="https://blog.golang.org/gopher">article</a> for more details.</br>
       Design by Moriah Rich, illustration by Ariel Mashraki.`,
     },
@@ -136,5 +135,13 @@ module.exports = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      es: {
+        label: 'Español',
+      },
+    },
   },
 };

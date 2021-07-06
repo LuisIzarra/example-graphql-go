@@ -4,32 +4,30 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/graphql1.svg').default,
-    description: (
-      <>
-        graphql-go/graphql was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: 'Go',
     Svg: require('../../static/img/graphql2.svg').default,
     description: (
       <>
-        graphql-go/graphql lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Pure Go implementation with zero dependencies.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'GraphQL Spec Compliant',
+    Svg: require('../../static/img/graphql1.svg').default,
+    description: (
+      <>
+        Follows the official reference implementation: <code>graphql-js</code>.
+      </>
+    ),
+  },
+  {
+    title: 'Tooling',
     Svg: require('../../static/img/graphql3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. graphql-go/graphql can
-        be extended while reusing the same header and footer.
+        Seamlessly integration with other third party libraries 
+        that extends the graphql-go/graphql functionality.
       </>
     ),
   },

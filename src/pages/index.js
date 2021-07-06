@@ -18,8 +18,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tutorial-basics/overview">
-            graphql-go/graphql Tutorial - 5min ⏱️
+            to="/docs/tutorial-basics/quick-start">
+            Quick Start →
           </Link>
         </div>
       </div>
@@ -29,10 +29,10 @@ function HomepageHeader() {
 
 function GitHubStargazersShield() {
     return (
-      <div style={{ padding: "6px" }}>
+      <div style={{ paddingTop: "8px" }}>
         <a
           href="https://github.com/graphql-go/graphql/stargazers"
-          className="github"
+          className="github-stargazers"
           target="_blank"
         >
           <img src="https://img.shields.io/github/stars/graphql-go/graphql?style=social"></img>
