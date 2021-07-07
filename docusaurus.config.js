@@ -115,10 +115,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/LuisIzarra/example-graphql-go/',
+            'https://github.com/LuisIzarra/example-graphql-go/tree/main/edit/docs/',
           includeCurrentVersion: false,
         },
         blog: {

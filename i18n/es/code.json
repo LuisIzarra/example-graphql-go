@@ -11,33 +11,9 @@
     "message": "Comuníquese con el dueño del sitio que lo vinculó a la URL original y hágale saber que su vínculo está roto.",
     "description": "The 2nd paragraph of the 404 page"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "Lectura de un minuto|{readingTime} min de lectura",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.tags.tagsListLabel": {
-    "message": "Etiquetas:",
-    "description": "The label alongside a tag list"
-  },
-  "theme.blog.post.readMore": {
-    "message": "Leer Más",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Cerrar",
     "description": "The ARIA label for close button of announcement bar"
-  },
-  "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navegación de la página de publicaciones del blog ",
-    "description": "The ARIA label for the blog posts pagination"
-  },
-  "theme.blog.post.paginator.newerPost": {
-    "message": "Publicación más reciente",
-    "description": "The blog post button label to navigate to the newer/previous post"
-  },
-  "theme.blog.post.paginator.olderPost": {
-    "message": "Publicación más antigua",
-    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación por la página de la lista de blogs ",
@@ -51,21 +27,33 @@
     "message": "Entradas más antiguas",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navegación de la página de publicaciones del blog ",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Publicación más reciente",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Publicación más antigua",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Lectura de un minuto|{readingTime} min de lectura",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Etiquetas:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Leer Más",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
     "description": "The title of the tag list page"
-  },
-  "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copiar código al portapaples",
-    "description": "The ARIA label for copy code blocks button"
-  },
-  "theme.CodeBlock.copied": {
-    "message": "Copiado",
-    "description": "The copied button label on code blocks"
-  },
-  "theme.CodeBlock.copy": {
-    "message": "Copiar",
-    "description": "The copy button label on code blocks"
   },
   "theme.blog.post.plurals": {
     "message": "Una publicación|{count} publicaciones",
@@ -78,6 +66,18 @@
   "theme.tags.tagsPageLink": {
     "message": "Ver Todas las Etiquetas",
     "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copiar código al portapaples",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copiado",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copiar",
+    "description": "The copy button label on code blocks"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Expandir barra lateral",
@@ -115,10 +115,6 @@
     "message": "Abrir menu",
     "description": "The ARIA label for open button of mobile doc sidebar"
   },
-  "theme.common.editThisPage": {
-    "message": "Editar está página",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Está es documentación sin liberar para {siteTitle} {versionLabel} versión.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -134,6 +130,10 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "última versión",
     "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Editar está página",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Enlace directo al encabezado",
@@ -154,5 +154,41 @@
   "theme.common.skipToMainContent": {
     "message": "Saltar al contenido principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Un documento encontrado|{count} documentos encontrados",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Resultados de búsqueda para \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Búsqueda en la documentación",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Escribe tu búsqueda aquí",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Buscar",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Búsqueda por Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No se encontraron resultados",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Obteniendo nuevos resultados...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Buscar",
+    "description": "The ARIA label and placeholder for search button"
   }
 }

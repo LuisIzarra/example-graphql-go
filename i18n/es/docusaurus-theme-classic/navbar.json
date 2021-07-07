@@ -10,9 +10,5 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
-  },
-  "item.label.GitHub Stargazers": {
-    "message": "Estrellas de GitHub",
-    "description": "Navbar item with label GitHub Stargazers"
   }
 }
