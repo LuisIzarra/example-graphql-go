@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'example-graphql-go', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: process.env.API_KEY,
+      apiKey: process.env.ALGOLIA_API_KEY,
       indexName: 'graphql-go',
       contextualSearch: true,
       appId: 'UGS24YL5EO',
@@ -119,6 +119,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/LuisIzarra/example-graphql-go/',
+          includeCurrentVersion: false,
         },
         blog: {
           showReadingTime: true,
