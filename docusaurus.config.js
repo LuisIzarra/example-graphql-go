@@ -70,7 +70,7 @@ module.exports = {
             },
             {
               label: 'Runnning a GraphQL API',
-              to: '/docs/intro'
+              to: '/docs/examples/graphql-api'
             }
           ],
         },
