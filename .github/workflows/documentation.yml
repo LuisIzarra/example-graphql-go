@@ -50,4 +50,4 @@ jobs:
           else
           npm i
           fi
-          ALGOLIA_API_KEY=${{ secrets.ALGOLIA_API_KEY }} npm run deploy
+          API_KEY=${{ secrets.ALGOLIA_API_KEY }} npm run deploy
