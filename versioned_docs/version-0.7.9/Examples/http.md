@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-#  HTTP
+# HTTP
 
 ## Data
 
@@ -140,5 +140,4 @@ func importJSONDataFromFile(fileName string, result interface{}) (isOK bool) {
 	}
 	return
 }
-
 ```

@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-#  Star Wars
+# Star Wars
 
 ```go title="main.go"
 package main

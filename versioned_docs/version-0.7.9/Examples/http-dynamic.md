@@ -2,19 +2,19 @@
 sidebar_position: 9
 ---
 
-#  HTTP Dynamic
+# HTTP Dynamic
 
-Basically, if we have ```data.json``` like this:
+Basically, if we have `data.json` like this:
 
 ```js title="data.json"
 [
-  { "id": "1", "name": "Dan" },
-  { "id": "2", "name": "Lee" },
-  { "id": "3", "name": "Nick" }
-]
+  { id: "1", name: "Dan" },
+  { id: "2", name: "Lee" },
+  { id: "3", name: "Nick" },
+];
 ```
 
-... and ```go run main.go```, we can query records:
+... and `go run main.go`, we can query records:
 
 ```go title="main.go"
 $ curl -g 'http://localhost:8080/graphql?query={user(name:"Dan"){id}}'
@@ -25,10 +25,10 @@ $ curl -g 'http://localhost:8080/graphql?query={user(name:"Dan"){id}}'
 
 ```js title="data.json"
 [
-  { "id": "1", "name": "Dan", "surname": "Jones" },
-  { "id": "2", "name": "Lee" },
-  { "id": "3", "name": "Nick" }
-]
+  { id: "1", name: "Dan", surname: "Jones" },
+  { id: "2", name: "Lee" },
+  { id: "3", name: "Nick" },
+];
 ```
 
 ... and kick the server:
@@ -51,7 +51,7 @@ $ curl -g 'http://localhost:8080/graphql?query={user(surname:"Jones"){id,name}}'
 {"data":{"user":{"id":"1","name":"Dan"}}}
 ```
 
-If you look at ```main.go```, the file is not field-aware. That is, all it knows is how to work with ```[]map[string]string``` type.
+If you look at `main.go`, the file is not field-aware. That is, all it knows is how to work with `[]map[string]string` type.
 
 With this, we are not that far from exposing dynamic fields and filters which fully depend on what we have stored, all without changing our tooling.
 
@@ -60,19 +60,19 @@ With this, we are not that far from exposing dynamic fields and filters which fu
 ```js title="data.json"
 [
   {
-    "id": "1",
-    "name": "Dan",
-    "surname": "Jones"
+    id: "1",
+    name: "Dan",
+    surname: "Jones",
   },
   {
-    "id": "2",
-    "name": "Lee"
+    id: "2",
+    name: "Lee",
   },
   {
-    "id": "3",
-    "name": "Nick"
-  }
-]
+    id: "3",
+    name: "Nick",
+  },
+];
 ```
 
 ## Main

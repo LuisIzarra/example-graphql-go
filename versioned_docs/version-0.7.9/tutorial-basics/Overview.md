@@ -12,8 +12,6 @@ Go Documentation
 
 godoc: **[current documentation](https://pkg.go.dev/github.com/graphql-go/graphql)**
 
-
-
 <!-- ```jsx title="src/pages/my-react-page.js"
 import React from 'react';
 import Layout from '@theme/Layout';

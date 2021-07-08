@@ -2,15 +2,15 @@
 sidebar_position: 11
 ---
 
-#  Go GraphQL SQL null string example
+# Go GraphQL SQL null string example
 
 **[database/sql Nullstring](https://golang.org/pkg/database/sql/#NullString)** implementation, with JSON marshalling interfaces.
 
 To run the program, go to the directory
-```cd examples/sql-nullstring```
+`cd examples/sql-nullstring`
 
 Run the example
-```go run main.go```
+`go run main.go`
 
 ## sql.NullString
 
@@ -36,11 +36,11 @@ type Person struct {
 }
 ```
 
-But ```graphql``` would render said field as an object ```{{ false}}``` or ```{{Bulldog true}}```, depending on their validity.
+But `graphql` would render said field as an object `{{ false}}` or `{{Bulldog true}}`, depending on their validity.
 
-With this implementation, ```graphql``` would render the null items as an empty string (```""```), but would be saved in the database as ```NULL```, appropriately.
+With this implementation, `graphql` would render the null items as an empty string (`""`), but would be saved in the database as `NULL`, appropriately.
 
-The pattern can be extended to include other ```database/sql``` null types.
+The pattern can be extended to include other `database/sql` null types.
 
 ```go title="main.go"
 package main

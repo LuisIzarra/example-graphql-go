@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-#  Hello World
+# Hello World
 
 ```go title="main.go"
 package main

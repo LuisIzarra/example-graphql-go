@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-#  Go GraphQL ToDo example
+# Go GraphQL ToDo example
 
 An example that consists of basic core GraphQL queries and mutations.
 
@@ -36,7 +36,7 @@ curl -g 'http://localhost:8080/graphql?query=mutation+_{updateTodo(id:"b",text:"
 
 ## Web App
 
-Access the web app at ```http://localhost:8080/```. It is work in progress and currently is simply loading todos by using jQuery ajax call.
+Access the web app at `http://localhost:8080/`. It is work in progress and currently is simply loading todos by using jQuery ajax call.
 
 ## Main
 

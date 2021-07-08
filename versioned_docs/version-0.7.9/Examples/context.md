@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-#  Context
+# Context
 
 ```go title="main.go"
 package main

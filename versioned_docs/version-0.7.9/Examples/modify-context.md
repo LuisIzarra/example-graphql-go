@@ -2,10 +2,9 @@
 sidebar_position: 10
 ---
 
-#  Modify Context
+# Modify Context
 
 ```go title="main.go"
-package main
 package main
 
 import (

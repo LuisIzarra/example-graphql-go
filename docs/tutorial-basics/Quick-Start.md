@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Quick Start
 
-The following is a simple example which defines a schema with a single ```hello``` string-type field and a ```Resolve``` method which returns the string ```world```. A GraphQL query is performed against this schema with the resulting output printed in JSON format.
+The following is a simple example which defines a schema with a single `hello` string-type field and a `Resolve` method which returns the string `world`. A GraphQL query is performed against this schema with the resulting output printed in JSON format.
 
 ```go title="main.go"
     package main

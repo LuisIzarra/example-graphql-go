@@ -6,11 +6,9 @@ sidebar_position: 2
 
 To install the library, run:
 
-```bash 
+```bash
 go get github.com/graphql-go/graphql
 ```
-
-
 
 <!-- A new document is now available at `http://localhost:3000/docs/hello`.
 

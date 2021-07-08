@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-#  Custom Scalar Type
+# Custom Scalar Type
 
 ```go title="main.go"
 package main

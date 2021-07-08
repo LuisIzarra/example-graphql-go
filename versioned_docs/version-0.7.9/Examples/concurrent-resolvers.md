@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-#  Concurrent Resolvers
+# Concurrent Resolvers
 
 ```go title="main.go"
 package main
