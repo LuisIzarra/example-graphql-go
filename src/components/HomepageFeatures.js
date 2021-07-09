@@ -13,7 +13,11 @@ const FeatureList = [
     Svg: require("../../static/img/graphql1.svg").default,
     description: (
       <>
-        Follows the official reference implementation: <code>graphql-js</code>.
+        Follows the official reference implementation:{" "}
+        <code>
+          <a href="https://github.com/graphql/graphql-js">graphql-js</a>
+        </code>
+        .
       </>
     ),
   },
@@ -23,7 +27,10 @@ const FeatureList = [
     description: (
       <>
         Seamlessly integration with other third party libraries that extends the
-        graphql-go/graphql functionality.
+        <code>
+          <a href="https://github.com/graphql-go/graphql">graphql-go/graphql</a>{" "}
+        </code>
+        functionality.
       </>
     ),
   },

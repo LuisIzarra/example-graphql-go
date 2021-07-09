@@ -32,7 +32,7 @@ function HomepageHeader() {
 
 function GitHubStargazersShield() {
   return (
-    <div style={{ paddingTop: "8px" }}>
+    <div style={{ paddingTop: "8px", paddingRight: "10px" }}>
       <a
         href="https://github.com/graphql-go/graphql/stargazers"
         className="github-stargazers"

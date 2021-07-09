@@ -9,6 +9,7 @@ module.exports = {
   favicon: "img/GraphQL_Logo.ico",
   organizationName: "LuisIzarra", // Usually your GitHub org/user name.
   projectName: "example-graphql-go", // Usually your repo name.
+  plugins: ["@docusaurus/plugin-google-analytics"],
   themeConfig: {
     algolia: {
       apiKey: process.env.API_KEY,
@@ -54,7 +55,8 @@ module.exports = {
         {
           type: "docsVersionDropdown",
           position: "right",
-          dropdownActiveClassDisabled: true,
+          dropdownActiveClassDisabled: false,
+          docsPluginId: "default",
         },
       ],
     },
@@ -109,6 +111,11 @@ module.exports = {
       The design is licensed under the Creative Commons 3.0 Attributions license. Read this <a href="https://blog.golang.org/gopher">article</a> for more details.</br>
       Design by Moriah Rich, illustration by Ariel Mashraki.`,
     },
+    googleAnalytics: {
+      trackingID: "UA-201621393-1",
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
@@ -119,13 +126,14 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/LuisIzarra/example-graphql-go/tree/main/edit/docs/",
+            "https://github.com/LuisIzarra/example-graphql-go/edit/tree/main/versioned_docs/",
           includeCurrentVersion: false,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/LuisIzarra/example-graphql-go/",
+          editUrl:
+            "https://github.com/LuisIzarra/example-graphql-go/edit/tree/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
