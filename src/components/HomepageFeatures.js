@@ -15,7 +15,9 @@ const FeatureList = [
       <>
         Follows the official reference implementation:{" "}
         <code>
-          <a href="https://github.com/graphql/graphql-js">graphql-js</a>
+          <a href="https://github.com/graphql/graphql-js" target="_blank">
+            graphql-js
+          </a>
         </code>
         .
       </>
@@ -28,7 +30,9 @@ const FeatureList = [
       <>
         Seamlessly integration with other third party libraries that extends the
         <code>
-          <a href="https://github.com/graphql-go/graphql">graphql-go/graphql</a>{" "}
+          <a href="https://github.com/graphql-go/graphql" target="_blank">
+            graphql-go/graphql
+          </a>{" "}
         </code>
         functionality.
       </>
