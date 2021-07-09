@@ -9,7 +9,6 @@ module.exports = {
   favicon: "img/GraphQL_Logo.ico",
   organizationName: "LuisIzarra", // Usually your GitHub org/user name.
   projectName: "example-graphql-go", // Usually your repo name.
-  plugins: ["@docusaurus/plugin-google-analytics"],
   themeConfig: {
     algolia: {
       apiKey: process.env.API_KEY,
