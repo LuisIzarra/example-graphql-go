@@ -54,8 +54,6 @@ module.exports = {
         {
           type: "docsVersionDropdown",
           position: "right",
-          dropdownActiveClassDisabled: false,
-          docsPluginId: "default",
         },
       ],
     },

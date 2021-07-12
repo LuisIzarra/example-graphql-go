@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require("../../static/img/graphql3.svg").default,
     description: (
       <>
-        Seamlessly integration with other third party libraries that extends the
+        Seamlessly integration with other third party libraries that extends the{" "}
         <code>
           <a href="https://github.com/graphql-go/graphql" target="_blank">
             graphql-go/graphql
