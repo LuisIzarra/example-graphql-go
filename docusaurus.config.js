@@ -14,7 +14,7 @@ module.exports = {
       apiKey: process.env.API_KEY,
       indexName: "graphql-go",
       contextualSearch: true,
-      appId: "UGS24YL5EO",
+      appId: "KFV984NS31",
       searchParameters: {},
     },
     navbar: {
