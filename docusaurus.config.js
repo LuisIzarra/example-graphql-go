@@ -11,7 +11,7 @@ module.exports = {
   projectName: "example-graphql-go", // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: process.env.API_KEY,
+      apiKey: process.env.ALGOLIA_API_KEY,
       indexName: "graphql-go",
       contextualSearch: true,
       appId: "KFV984NS31",
@@ -47,10 +47,11 @@ module.exports = {
           position: "right",
           className: "github-stargazers",
         },
-        {
-          type: "localeDropdown",
-          position: "right",
-        },
+        // Dropdown of Versioning
+        // {
+        //   type: "localeDropdown",
+        //   position: "right",
+        // },
         {
           type: "docsVersionDropdown",
           position: "right",
@@ -123,8 +124,10 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/LuisIzarra/example-graphql-go/edit/tree/main/versioned_docs/",
+            "https://github.com/LuisIzarra/example-graphql-go/edit/main/docs",
           includeCurrentVersion: true,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
