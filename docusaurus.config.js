@@ -125,7 +125,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/LuisIzarra/example-graphql-go/edit/main/docs",
-          includeCurrentVersion: true,
+          includeCurrentVersion: false,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
