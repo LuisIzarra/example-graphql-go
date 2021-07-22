@@ -32,8 +32,8 @@ const FeatureList = [
         <code>
           <a href="https://github.com/graphql-go/graphql" target="_blank">
             graphql-go/graphql
-          </a>{" "}
-        </code>
+          </a>
+        </code>{" "}
         functionality.
       </>
     ),

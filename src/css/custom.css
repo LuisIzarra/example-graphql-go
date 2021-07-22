@@ -17,11 +17,26 @@
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme='dark'] {
+  --ifm-color-primary: #18191a;
+  --ifm-color-primary-dark: #1a181a;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] a {
+  /* Color which works with dark mode syntax highlighting theme */
+  color: #db5595
+}
+
+html[data-theme='dark'] h1 {
+  /* Color which works with dark mode syntax highlighting theme */
+  color: #db5595
 }
 
 .navbar__items {
