@@ -56,7 +56,12 @@ html[data-theme='light'] p.hero__subtitle {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background .3s, color .3s;
+  transition: background .5s, color .5s;
+}
+
+.button:hover {
+  background-color: #e15799;
+  color: #ffffff;
 }
 
 .navbar__items {
