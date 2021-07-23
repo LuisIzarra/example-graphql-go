@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #e434ac;
+  --ifm-color-primary: #ffffff;
   --ifm-color-primary-dark: #de1ea1;
   --ifm-color-primary-darker: #d21c98;
   --ifm-color-primary-darkest: #ad177d;
@@ -29,14 +29,34 @@ html[data-theme='dark'] {
   padding: var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] a {
+html[data-theme='dark'] a, h1 {
   /* Color which works with dark mode syntax highlighting theme */
   color: #db5595
 }
 
-html[data-theme='dark'] h1 {
-  /* Color which works with dark mode syntax highlighting theme */
+html[data-theme='light'] a, h1 {
   color: #db5595
+}
+
+html[data-theme='light'] p.hero__subtitle {
+  color: #33465c
+}
+
+.button {
+  background: transparent;
+  color: #e15799;
+  border: 1px solid #e15799;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background .3s, color .3s;
 }
 
 .navbar__items {

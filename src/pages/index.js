@@ -17,10 +17,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <translate>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/tutorial-basics/quick-start"
-            >
+            <Link className="button" to="/docs/tutorial-basics/quick-start">
               Quick Start →
             </Link>
           </translate>

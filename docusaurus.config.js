@@ -114,6 +114,21 @@ module.exports = {
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
+    colorMode: {
+      defaultMode: "light",
+      respectPrefersColorScheme: false,
+      // Dark/light switch icon options
+      switchConfig: {
+        darkIcon: "🌙",
+        darkIconStyle: {
+          marginLeft: "2px",
+        },
+        lightIcon: "\u{2600}",
+        lightIconStyle: {
+          marginLeft: "1px",
+        },
+      },
+    },
   },
   presets: [
     [
