@@ -139,7 +139,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/LuisIzarra/example-graphql-go/edit/main/docs",
+            "https://github.com/LuisIzarra/example-graphql-go/blob/main/",
           includeCurrentVersion: false,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
