@@ -30,11 +30,11 @@ html[data-theme='dark'] .hero {
 
 a, h1 {
   color: #db5595;
-  transition: background .5s, color .5s;
+  transition: background .3s, color .3s;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #18191a;
 }
 
 html[data-theme='light'] p.hero__subtitle {
@@ -55,7 +55,7 @@ html[data-theme='light'] p.hero__subtitle {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background .5s, color .5s;
+  transition: background .3s, color .3s;
 }
 
 .button:hover {
@@ -75,7 +75,7 @@ html[data-theme='light'] p.hero__subtitle {
 html[data-theme='light'] .navbar__link {
   color: #db5595;
   cursor: pointer;
-  transition: color .5s;
+  transition: color .3s;
 }
 
 html[data-theme='light'] .navbar__link:hover {
@@ -85,34 +85,37 @@ html[data-theme='light'] .navbar__link:hover {
 html[data-theme='dark'] .navbar__link {
   color: #db5595;
   cursor: pointer;
-  transition: color .5s;
+  transition: color .3s;
 }
 
 html[data-theme='dark'] .navbar__link:hover {
   color: #ffffff;
 }
 
-html[data-theme='light'] .menu__link {
+html[data-theme='light'] .menu__link--active {
   color:#db5595;
-  transition: color 0.5s;
+  transition: color 0.3s;
 }
 
-html[data-theme='light'] .menu__link:hover {
+html[data-theme='light'] .menu__link--active:hover {
   color:#18191a;
 }
 
-html[data-theme='dark'] .menu__link {
+html[data-theme='dark'] .menu__link--active {
   color:#db5595;
-  transition: color 0.5s;
+  transition: color 0.3s;
 }
 
-html[data-theme='dark'] .menu__link:hover {
+html[data-theme='dark'] .menu__link--active:hover {
   color:#ffffff;
 }
 
-.menu__link, .menu__link:hover {
-  color: rgb(255, 0, 255);
-  transition-property: color,background;
+html[data-theme='light'] .h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module {
+  color: #18191a;
+}
+
+html[data-theme='dark'] .h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module {
+  color: #ffffff;
 }
 
 .react-toggle {
