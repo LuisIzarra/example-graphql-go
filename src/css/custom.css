@@ -28,12 +28,21 @@ html[data-theme='dark'] .hero {
   padding: var(--ifm-pre-padding);
 }
 
-a, h1 {
+html[data-therme='light'] a, h1 {
   color: #db5595;
   transition: background .3s, color .3s;
 }
 
-a:hover {
+html[data-therme='light'] a:hover {
+  color: #18191a;
+}
+
+html[data-therme='dark'] a, h1 {
+  color: #db5595;
+  transition: background .3s, color .3s;
+}
+
+html[data-therme='dark'] a:hover {
   color: #18191a;
 }
 
@@ -110,11 +119,11 @@ html[data-theme='dark'] .menu__link--active:hover {
   color:#ffffff;
 }
 
-html[data-theme='light'] .h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module {
+html[data-theme='light'] .h1Heading_27L5 {
   color: #18191a;
 }
 
-html[data-theme='dark'] .h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module {
+html[data-theme='dark'] .h1Heading_27L5 {
   color: #ffffff;
 }
 
