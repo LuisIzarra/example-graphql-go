@@ -9,8 +9,12 @@
   --ifm-code-font-size: 95%;
 }
 
-.navbar__title {
-  color: #db5595;
+html[data-theme='light'] .navbar__title {
+  color: #18191a;
+}
+
+html[data-theme='dark'] .navbar__title {
+  color: #ffffff;
 }
 
 html[data-theme='light'] .hero {
@@ -82,23 +86,23 @@ html[data-theme='light'] p.hero__subtitle {
 }
 
 html[data-theme='light'] .navbar__link {
-  color: #db5595;
+  color: #18191a;
   cursor: pointer;
   transition: color .3s;
 }
 
 html[data-theme='light'] .navbar__link:hover {
-  color: #18191a;
+  color: #db5595;
 }
 
 html[data-theme='dark'] .navbar__link {
-  color: #db5595;
+  color: #ffffff;
   cursor: pointer;
   transition: color .3s;
 }
 
 html[data-theme='dark'] .navbar__link:hover {
-  color: #ffffff;
+  color: #db5595;
 }
 
 html[data-theme='light'] .menu__link--active {
