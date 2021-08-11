@@ -58,7 +58,7 @@ html[data-theme='light'] p.hero__subtitle {
   background: transparent;
   color: #e15799;
   border: 1px solid #e15799;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -134,4 +134,13 @@ html[data-theme='dark'] .h1Heading_27L5 {
 .react-toggle {
   margin-left: 10px ;
   margin-right: 9px;
+}
+
+.button--secondary {
+  background-color: #fafafa;
+  border: #fafafa;
+}
+
+.DocSearch {
+  display: none;
 }

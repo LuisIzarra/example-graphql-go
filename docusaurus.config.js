@@ -10,13 +10,13 @@ module.exports = {
   organizationName: "LuisIzarra", // Usually your GitHub org/user name.
   projectName: "example-graphql-go", // Usually your repo name.
   themeConfig: {
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: "graphql-go",
-      contextualSearch: true,
-      appId: "KFV984NS31",
-      searchParameters: {},
-    },
+    // algolia: {
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   indexName: "graphql-go",
+    //   contextualSearch: false,
+    //   appId: "KFV984NS31",
+    //   searchParameters: {},
+    // },
     navbar: {
       title: "graphql-go/graphql",
       logo: {
@@ -47,7 +47,7 @@ module.exports = {
           position: "right",
           className: "github-stargazers",
         },
-        // Dropdown of Versioning
+        // Dropdown of languages
         // {
         //   type: "localeDropdown",
         //   position: "right",
