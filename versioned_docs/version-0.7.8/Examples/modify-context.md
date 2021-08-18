@@ -6,7 +6,6 @@ sidebar_position: 10
 
 ```go title="main.go"
 package main
-package main
 
 import (
 	"context"

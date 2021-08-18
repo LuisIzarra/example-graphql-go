@@ -32,24 +32,9 @@ html[data-theme='dark'] .hero {
   padding: var(--ifm-pre-padding);
 }
 
-html[data-therme='light'] a, h1 {
+a, h1 {
   color: #db5595;
-  transition: background .3s, color .3s;
 }
-
-html[data-therme='light'] a:hover {
-  color: #18191a;
-}
-
-html[data-therme='dark'] a, h1 {
-  color: #db5595;
-  transition: background .3s, color .3s;
-}
-
-html[data-therme='dark'] a:hover {
-  color: #18191a;
-}
-
 html[data-theme='light'] p.hero__subtitle {
   color: #33465c;
 }

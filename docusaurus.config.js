@@ -102,6 +102,10 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/graphql-go/graphql",
             },
+            {
+              label: "GoDoc",
+              href: "https://pkg.go.dev/github.com/graphql-go/graphql",
+            },
           ],
         },
       ],

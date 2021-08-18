@@ -8,9 +8,9 @@ sidebar_position: 1
 package main
 
 import (
-  "log"
+  	"log"
 	"net/http"
-
+	
 	"github.com/graphql-go/graphql/testutil"
 	"github.com/graphql-go/handler"
 )
