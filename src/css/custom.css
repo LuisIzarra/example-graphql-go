@@ -70,42 +70,20 @@ html[data-theme='light'] p.hero__subtitle {
   padding-inline: 10px;
 }
 
-html[data-theme='light'] .navbar__link {
-  color: #18191a;
-  cursor: pointer;
-  transition: color .3s;
+html[data-theme='light'] .navbar__item--active {
+  color:#db5595;
 }
 
-html[data-theme='light'] .navbar__link:hover {
-  color: #db5595;
-}
-
-html[data-theme='dark'] .navbar__link {
-  color: #ffffff;
-  cursor: pointer;
-  transition: color .3s;
-}
-
-html[data-theme='dark'] .navbar__link:hover {
-  color: #db5595;
+html[data-theme='dark'] .navbar__item--active {
+  color:#db5595;
 }
 
 html[data-theme='light'] .menu__link--active {
   color:#db5595;
-  transition: color 0.3s;
-}
-
-html[data-theme='light'] .menu__link--active:hover {
-  color:#18191a;
 }
 
 html[data-theme='dark'] .menu__link--active {
   color:#db5595;
-  transition: color 0.3s;
-}
-
-html[data-theme='dark'] .menu__link--active:hover {
-  color:#ffffff;
 }
 
 html[data-theme='light'] .h1Heading_27L5 {

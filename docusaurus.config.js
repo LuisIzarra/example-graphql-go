@@ -32,7 +32,7 @@ module.exports = {
       },
       items: [
         {
-          href: "/docs/tutorial-basics/overview",
+          to: "/docs/tutorial-basics/overview",
           label: "Docs",
           position: "left",
         },
