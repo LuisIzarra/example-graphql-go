@@ -145,7 +145,7 @@ module.exports = {
           editUrl:
             "https://github.com/LuisIzarra/example-graphql-go/blob/main/",
           includeCurrentVersion: false,
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           showLastUpdateTime: true,
         },
         blog: {
